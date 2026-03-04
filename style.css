@@ -1,170 +1,297 @@
-@font-face {
-    font-family: Garet Book;
-    src: url(Garet-Book.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: Inter;
+    color: white;
 }
 
 body{
-    font-size: larger;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    font-family: Garet Book;
-    background-color: rgb(34, 34, 34);
+    background-color: #1e212e;
+    margin: 0px;
+    margin-top: 90px;
 }
-header{
-    display: flex;
-    width: 1200px;
+
+.container{
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 30px 0 30px
+}
+
+/* CSS HEADER */
+header{
+    font-size: x-large;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(10px); /* Intensidade do desfoque */
+    -webkit-backdrop-filter: blur(10px);
+}
+
+header .container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome{
+    color: #e39d07;
+    font-weight: bold;
+}
+
+header p{margin: 0px;}
+
+header a{
+    margin-left: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+header a:hover{
+    color: #e0811b;
+    transition: 0.3s;
+}
+
+.destaque{
+    border-bottom: 2px solid #e39d07;
+}
+
+.linha{
+    border: 2px solid rgb(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* CSS MAIN - SOBRE MIM */
+
+.titulo{
+    display: flex;
     align-items: center;
     margin-top: 30px;
 }
 
-header h2{
-    margin: 0;
+.titulo h2{
+    padding-right: 10px;
+    white-space: nowrap;
+}
+.titulo hr{
+    width: 100%;
+    height: 0px;
+    border: 2px solid #e39d07;
+    border-radius: 5px;
 }
 
-hr{
-    width: 1200px;
-    border-bottom: 3px;
-    border-radius: 10px;
+.informacoes{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
 }
-
-header img{
-    width: 150px;
+.fotoPerfil{
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 30px;
 }
-main{
+
+.informacoes span{
+    /* color: #E39D07; */
+    background: -webkit-linear-gradient(#e39d07, #e0811b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.informacoes p, .card_contato p{
+    color: rgb(255, 255, 255, 0.5);
+    font-style: italic;
+}
+
+.resumo{
+    font-size: large;
+}
+
+li{
+    font-size: large;
+}
+
+ul li::marker {
+  color: #E39D07; /* cor da bolinha */
+}
+
+.ferramentas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.ferramentas div{
+    padding: 20px;
+    border: 3px solid #e39d07;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.ferramentas div:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+.ferramentas img{
+    width: 60px;
+    height: 60px;
+}
+
+.card_contato{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 3px solid rgb(255, 255, 255, 0.1);
+    border-radius: 35px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.card_contato:hover{
+    border: 3px solid #E39D07;
+    scale: 1.01;
+    transition: 0.3s;
+}
+
+.card_contato img{
+    background: linear-gradient(135deg,#e39d07 0%, #e0811b 100%);
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card_contato h2, .card_contato p{
+    margin: 0px;
+}
+
+.card_contato div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly
 }
 
-h1{
-    text-align: center;
-}
-
-.inverted{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-section{
-    display: flex;
-    width: 1200px;
-    height: 450px;
-    background-color: rgb(44, 44, 44);
-    border-radius: 40px;
+/* CSS MAIN - PROJETOS */
+.card_projeto{
+    padding: 20px;
+    border: 3px solid rgb(255, 255, 255, 0.1);
+    border-radius: 35px;
     margin-bottom: 20px;
 }
-
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.info img{
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-.info div{
+.card_projeto div{
     display: flex;
     align-items: center;
+    flex-wrap: wrap
 }
-
-.foto{
-    height: 450px;
-    border-radius: 40px 0 0 40px;
+.card_projeto img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
 }
-
-.foto2{
-    height: 450px;
-    border-radius: 0 40px 40px 0;
+.card_projeto h2{
+    margin: 0;
 }
+.link{
+    color: rgb(255, 255, 255, 0.5);
+    font-style: italic;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+.tags{margin: 10px 0;}
+.tags b{
+    margin-right: 5px;
+}
+.tags p{
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 7px;
+    border-radius: 30px;
+    margin: 0 5px 3px 0;
 
-a{
-    text-decoration: none;
-    color: white;
-    border-radius: 20px;
+}
+.card_projeto button{
     width: 100%;
-    padding: 20px 0px 20px 0px;
     text-align: center;
+    background-color: #e39d07;
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+    border: 0;
+    color: #1e212e;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card_projeto button:hover{
+    background-color: #e0811b;
+    scale: 1.01;
+    transition: 0.3s;
 }
 
-@media screen and (max-width: 1250px){
-    body{
+/* CSS RODAPÉ */
+footer{
+    background-color: #e39d07;
+    text-align: center;
+    color: #1e212e;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Media Query */
+@media (max-width: 740px){
+    header{
+    font-size: large;
+    }
+
+    .informacoes{
+        font-size: large;
+    }
+        
+    .resumo{
         font-size: medium;
     }
-    header{
-        max-width: 800px;
-        width: 100%;
-        align-items: center;
-        margin-top: 20px;
-    }
-    
-    hr{
-        max-width: 800px;
-        width: 100%;
 
+    li{
+        font-size: medium;
     }
-    header img{
-        width: 100px;
-        margin-right: 10px;
-        margin-left: 10px;
+    .card_projeto button{
+        font-size: medium;
     }
-    
-    h1{
+
+    .fotoPerfil{
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 550px){
+    header a{
+        font-size: small;
+    }
+    .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         text-align: center;
     }
-    
-    .inverted{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column
+    .fotoPerfil{
+        margin-right: 0px;
     }
-    
-    section{
-        display: flex;
-        max-width: 800px;
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        border-radius: 30px;
+    .card_contato{
+        padding: 10px;
+        border-radius: 20px;
     }
-    
-    .info{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 20px;
-    }
-    
-    .info img{
-        width: 40px;
-        height: 40px;
+    .card_contato img{
         margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 10;
     }
-    
-    .info div{
-        display: flex;
-        align-items: center;
+    .card_contato h2{
+        font-size: medium;
     }
-    
-    .foto{
-        width: 100%;
-        width: auto;
-        height: auto;
-        border-radius: 30px 30px 0px 0px;
-    }
-    
-    .foto2{
-        width: 100%;
-        width: auto;
-        height: auto;
-        border-radius: 30px 30px 0px 0px;
+    .card_contato p{
+        font-size: small;
     }
 }

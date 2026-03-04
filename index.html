@@ -1,72 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos Back-End</title>
+    <title>Portifólio | Lucas Siqueira</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <img src="imagens/fotoPerfil.jpg" alt="">
-        <div>
-            <h2>Lucas Siqueira</h2>
-            <p class="bio">Estudante de Desenvolvimento de Sistemas do SENAI</p>
+        <div class="container">
+            <p class="nome">Lucas Siqueira</p>
+
+            <!-- Link para as páginas -->
+            <nav>
+                <a href="index.html" class="destaque">Sobre Mim</a>
+                <a href="projetos.html">Projetos</a>
+            </nav>
         </div>
     </header>
+    <hr class="linha">
 
-    <hr>
-    <h1>Portifólio Back-End 2024</h1>
-
+    <!-- Corpo do Site -->
     <main>
-        <!-- CRUD - LOUD -->
-        <section>
-            <img class="foto" src="imagens/telaLoud.png" alt="">
-            <div class="info">
+        <div class="container">
+            <!-- Apresentação (Foto e Nome) -->
+            <div class="informacoes">
+                <img class="fotoPerfil" src="https://avatars.githubusercontent.com/u/92749793?v=4" alt="">
                 <div>
-                    <img src="imagens/loud.png" alt="">
-                    <h2>CRUD - LOUD</h2>
+                    <h1>Olá, me chamo <span>LUCAS</span></h1>
+                    <p>3º Semestre de Eng.de Software</p>
                 </div>
-                <p>Site em que foi usado como estudo para o método CRUD com a temática do time de e-sports LOUD Valorant. <br><br>
-                    Login: Admin2024 <br>
-                    Senha: 12345678
-                </p>
-                <a style="background-color: #58cc5a" href="https://crudloud2-kxugg0mp.b4a.run/index.html">Acessar Site</a>
             </div>
-        </section>
 
-        <!-- ChatLink -->
-        <section class="inverted">
-            <img class="foto2" src="imagens/telaChat.png" alt="">
-            <div class="info">
-                <div>
-                    <img src="imagens/chat.png" alt="">
-                    <h2>ChatLink</h2>
-                </div>
-                <p>Projeto de um chat como estudo para back-end. Digite seu nome e escolha uma cor para funcionar!
-                </p>
-                <a style="background-color: #008cff;" href="https://chatlink-qsyw7wte.b4a.run/">Acessar Site</a>
+            <!-- Sobre Mim -->
+            <div class="titulo">
+                <h2>Sobre Mim</h2>
+                <hr>
             </div>
-        </section>
 
-        <!-- PHP Ferrari -->
-        <section>
-            <img class="foto" src="imagens/telaFerrari.png" alt="">
-            <div class="info">
-                <div>
-                    <img src="imagens/ferrari.png" alt="">
-                    <h2>Inscrição Evento Ferrari</h2>
-                </div>
-                <p>Site em que foi usado como estudo para o método CRUD com e PHP SQL com o tema de inscrição para um encontro de carros da Ferrari. <br><br>
-                    Login: Admin2024 <br>
-                    Senha: 12345678
-                </p>
-                <a style="background-color: #d60000;" href="https://ferrari488.000webhostapp.com/">Acessar Site</a>
+
+            <p class="resumo">Tenho 18 anos e sou estudante de programação e estou me dedicando ao desenvolvimento web, buscando aprimorar minhas habilidades técnicas por meio de projetos práticos e estudos contínuos. Meu objetivo é crescer profissionalmente na área de tecnologia.</p>
+
+            <ul>
+                <li>📖Desenvolvedor em formação
+                <li>🔧Técnico de Desenvolvimento de Sistemas - SENAI</li>
+                <li>💻Engenharia de Software - UMC</li>
+                <li>🚀Apaixonado por tecnologia</li>
+                <li>🎯Sempre buscando evoluir.</li>
+            </ul>
+
+            <!-- Linguagens e ferramentas -->
+            <div class="titulo">
+                <h2>Linguagens e Ferramentas</h2>
+                <hr>
             </div>
-        </section>
+            <div class="ferramentas">
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg" /></div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /></div>
+            </div>
+
+            <!-- Contato -->
+            <div class="titulo">
+                <h2>Contato</h2>
+                <hr>
+            </div>
+            
+            <!-- GitHub -->
+            <a class="card_contato" href="https://github.com/LucasSiq31">
+                <img src="icons/github.png" alt="">
+                <div>
+                    <h2>GitHub</h3>
+                    <p>https://github.com/LucasSiq31</p>
+                </div>
+            </a>
+
+            <!-- LinkedIn -->
+            <a class="card_contato" href="https://www.linkedin.com/in/lucas-siqueira-1b301b321/">
+                <img src="icons/linkedin.png" alt="">
+                <div>
+                    <h2>LinkedIn</h3>
+                    <p>https://www.linkedin.com/in/lucas-siqueira-1b301b321/</p>
+                </div>
+            </a>
+
+            <!-- E-mail -->
+            <a class="card_contato" href="mailto:lucas.alves.siqueira31@gmail.com">
+                <img src="icons/gmail.png" alt="">
+                <div>
+                    <h2>E-mail</h3>
+                    <p>lucas.alves.siqueira31@gmail.com</p>
+                </div>
+            </a>
+        </div>
     </main>
+
+    <footer>
+        Desenvolvido por Lucas Siqueira
+    </footer>
 </body>
 </html>
