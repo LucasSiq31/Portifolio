@@ -38,3 +38,18 @@ Para garantir uma interface leve, rápida e elegante, utilizei:
 - **Design Clean:** Foco total na legibilidade e na experiência do usuário (UX).
 - **Mobile First:** Totalmente adaptado para leitura em smartphones.
 - **Performance:** Carregamento instantâneo por ser uma aplicação estática otimizada.
+
+## 👤 Autor
+Desenvolvido por **Lucas Siqueira**
+
+<p>
+  <a href="mailto:lucas.alves.siqueira31@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/lucas-siqueira-1b301b321">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/LucasSiq31">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
