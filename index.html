@@ -3,112 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio | Lucas Siqueira</title>
-
+    <title>Sobre Mim - Portifólio Lucas Siqueira</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="coffee.png" type="image/x-icon">
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header>
         <div class="container">
-            <p class="nome">Lucas Siqueira</p>
-
-            <!-- Link para as páginas -->
-            <nav>
-                <a href="index.html" class="destaque">Sobre Mim</a>
+            <p><<span>lucas.dev </span> /></p>
+            <div>
+                <a class="active" href="index.html">Sobre</a>
                 <a href="projetos.html">Projetos</a>
-            </nav>
+            </div>
         </div>
     </header>
-    <hr class="linha">
 
-    <!-- Corpo do Site -->
-    <main>
+    <main class="index">
         <div class="container">
-            <!-- Apresentação (Foto e Nome) -->
-            <div class="informacoes">
-                <img class="fotoPerfil" src="https://avatars.githubusercontent.com/u/92749793?v=4" alt="">
+
+            <!-- Sobre -->
+            <section class="aboutMe">
+                <!-- Informações -->
                 <div>
-                    <h1>Olá, meu nome é <span>LUCAS</span></h1>
-                    <p>3º Semestre de Eng.de Software</p>
+                    <span class="fade-up fade-up-1">// estudante eng. de software</span>
+
+                    <h1 class="fade-up fade-up-2">Lucas <span>Siqueira</span></h1>
+
+                    <p class="fade-up fade-up-3">Tenho 19 anos e sou estudante de programação e estou me dedicando ao desenvolvimento web, buscando aprimorar minhas habilidades técnicas por meio de projetos práticos e estudos contínuos. Meu objetivo é crescer profissionalmente na área de tecnologia.</p>
+
+                    <div class="btn-link fade-up fade-up-3"">
+                        <a href="#contact">Entrar em Contato</a>
+                        <a href="projetos.html">Ver projetos</a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Sobre Mim -->
-            <div class="titulo">
-                <h2>Sobre Mim</h2>
-                <hr>
-            </div>
-
-
-            <p class="resumo">Tenho 19 anos e sou estudante de programação e estou me dedicando ao desenvolvimento web, buscando aprimorar minhas habilidades técnicas por meio de projetos práticos e estudos contínuos. Meu objetivo é crescer profissionalmente na área de tecnologia.</p>
-
-            <ul>
-                <li>📖Desenvolvedor em formação
-                <li>🔧Técnico de Desenvolvimento de Sistemas - SENAI</li>
-                <li>💻Engenharia de Software - UMC</li>
-                <li>🚀Apaixonado por tecnologia</li>
-                <li>🎯Sempre buscando evoluir.</li>
-            </ul>
-
-            <!-- Linguagens e ferramentas -->
-            <div class="titulo">
-                <h2>Linguagens e Ferramentas</h2>
-                <hr>
-            </div>
-            <div class="ferramentas">
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg" /></div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /></div>
-            </div>
-
-            <!-- Contato -->
-            <div class="titulo">
-                <h2>Contato</h2>
-                <hr>
-            </div>
-            
-            <!-- GitHub -->
-            <a class="card_contato" href="https://github.com/LucasSiq31">
-                <img src="icons/github.png" alt="">
+                <!-- Foto -->
                 <div>
-                    <h2>GitHub</h3>
-                    <p>https://github.com/LucasSiq31</p>
+                    <div class="imgBox fade-up fade-up-2">
+                        <img src="https://avatars.githubusercontent.com/u/92749793?v=4" alt="">
+                    </div>
                 </div>
-            </a>
+            </section>
 
-            <!-- LinkedIn -->
-            <a class="card_contato" href="https://www.linkedin.com/in/lucas-siqueira-1b301b321/">
-                <img src="icons/linkedin.png" alt="">
-                <div>
-                    <h2>LinkedIn</h3>
-                    <p>https://www.linkedin.com/in/lucas-siqueira-1b301b321/</p>
-                </div>
-            </a>
+            <!-- Tópicos -->
+            <section class="box-card fade-up fade-up-3">
+                <span class="fade-up fade-up-4">// sobre mim</span>
 
-            <!-- E-mail -->
-            <a class="card_contato" href="mailto:lucas.alves.siqueira31@gmail.com">
-                <img src="icons/gmail.png" alt="">
-                <div>
-                    <h2>E-mail</h3>
-                    <p>lucas.alves.siqueira31@gmail.com</p>
+                <ul class="fade-up fade-up-5">
+                    <li>Desenvolvedor em formação
+                    <li>Apaixonado por tecnologia</li>
+                    <li>Sempre buscando evoluir.</li>
+                </ul>
+            </section>
+
+            <!-- Tecnologias -->
+            <section class="experience">
+                <!-- Habilidades -->
+                <div class="fade-up fade-up-5">
+                    <span>// habilidades</span>
+                    <div class="tools">
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg" /></div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /></div>
+                    </div>
                 </div>
-            </a>
+
+                <div class="fade-up fade-up-6">
+                    <span>// formação</span>
+
+                    <ol class="stepper">
+                        <li>
+                            <div>
+                                <b>Engenharia de Software</b>
+                                <p>UMC - Conclusão para 2028</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <b>Técnico em Desenvolvimento de Sistemas</b>
+                                <p>SENAI - 2024</p>
+                            </div>
+                        </li>
+
+                    </ol>
+                </div>
+
+            </section>
+
+            <section class="box-card" id="contact">
+                <span>// contato</span>
+                <h2>Vamos Trabahar Juntos?</h2>
+                <p>Aberto a oportunidades de trabalho e projetos freelance.</p>
+
+                <div class="contact-cards">
+
+                    <a href="mailto:lucas.alves.siqueira31@gmail.com">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 6L12 13L2 6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>lucas.alves.siqueira31@gmail.com</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/lucas-siqueira-1b301b321/">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 9H2V21H6V9Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>linkedin.com/in/lucas-siqueira-1b301b321/</span>
+                    </a>
+
+                    <a href="https://github.com/LucasSiq31">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_117_6)">
+                                <path d="M9 19C4 20.5 4 16.5 2 16M16 22V18.13C16.0375 17.6532 15.9731 17.1738 15.811 16.7238C15.6489 16.2738 15.3929 15.8634 15.06 15.52C18.2 15.17 21.5 13.98 21.5 8.52C21.4997 7.12383 20.9627 5.7812 20 4.77C20.4559 3.54851 20.4236 2.19835 19.91 0.999999C19.91 0.999999 18.73 0.649999 16 2.48C13.708 1.85882 11.292 1.85882 9 2.48C6.27 0.649999 5.09 0.999999 5.09 0.999999C4.57638 2.19835 4.54414 3.54851 5 4.77C4.03013 5.7887 3.49252 7.14346 3.5 8.55C3.5 13.97 6.8 15.16 9.94 15.55C9.611 15.89 9.35726 16.2954 9.19531 16.7399C9.03335 17.1844 8.96681 17.6581 9 18.13V22" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_117_6">
+                                    <rect width="24" height="24" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <span>github.com/LucasSiq31</span>
+                    </a>
+                </div>
+
+            </section>
         </div>
     </main>
-
-    <footer>
-        Desenvolvido por Lucas Siqueira
-    </footer>
 </body>
-
 </html>
-
