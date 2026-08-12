@@ -3,255 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos | Lucas Siqueira</title>
-
+    <title>Projetos - Portifólio Lucas Siqueira</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="coffee.png" type="image/x-icon">
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header>
         <div class="container">
-            <p class="nome">Lucas Siqueira</p>
-
-            <!-- Link para as páginas -->
+            <p><<span>lucas.dev </span> /></p>
             <div>
-                <a href="index.html">Sobre Mim</a>
-                <a href="projetos.html" class="destaque">Projetos</a>
+                <a href="index.html">Sobre</a>
+                <a class="active" href="projetos.html">Projetos</a>
             </div>
         </div>
     </header>
-    <hr class="linha">
 
-    <!-- Corpo -->
     <main>
         <div class="container">
+
+            <!-- Começo -->
+            <section class="head">
+                <span id="numProjects" class="fade-up fade-up-1">// projetos.length = ?</span>
+                <h1 class="fade-up fade-up-2">Projetos <span>Realizados</span></h1>
+                <p class="desc fade-up fade-up-3">Projetos desenvolvidos com a finalidade de aprimorar minhas habilidades de programação e design web.</p>
+            </section>
+
+            <!-- Tags -->
+            <section id="tags" class="fade-up fade-up-4"></section>
+
             <!-- Projetos -->
-            <div class="titulo">
-                <h2>Projetos</h2>
-                <hr>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/SaturnSound/Icons/icon.png'/>
-                    <h2>Saturn Sound</h2>
-                </div>
-                <p>O SaturnSound é um player de música web moderno e interativo, que permite gerenciar playlists, controlar a reprodução e visualizar faixas com uma interface temática e responsiva.</p>
-                <p class="link">https://lucassiq31.github.io/SaturnSound/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/SaturnSound/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/tenisStreet/Imagens/favicon.png'/>
-                    <h2>Tênis Street</h2>
-                </div>
-                <p>O TenisStreet é uma plataforma de e-commerce de calçados importados que utiliza APIs para cálculo de frete e conversão de moeda em tempo real, oferecendo uma experiência de compra moderna e responsiva. Não é um e-commerce verdadeiro.</p>
-                <p class="link">https://lucassiq31.github.io/tenisStreet/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>Node</p>
-                    <p>API</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/tenisStreet/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/PixelPaint/favicon.png'/>
-                    <h2>Pixel Paint</h2>
-                </div>
-                <p>O PixelPaint é uma ferramenta web interativa para criação de Pixel Art, permitindo desenhar em grades personalizáveis, escolher cores e exportar suas artes digitalmente.</p>
-                <p class="link">https://lucassiq31.github.io/PixelPaint/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/PixelPaint/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/GhostBlog/img/logo.png'/>
-                    <h2>Ghost Blog</h2>
-                </div>
-                <p>O GhostBlog é uma interface de blog estática e minimalista, projetada para oferecer uma experiência de leitura limpa e sem distrações, com foco total na tipografia e na responsividade.</p>
-                <p class="link">https://lucassiq31.github.io/GhostBlog/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/GhostBlog/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/API_Clima/dia.png'/>
-                    <h2>API Clima</h2>
-                </div>
-                <p>Dashboard de meteorologia desenvolvido com JavaScript, consumindo APIs externas para exibição de dados climáticos precisos e visualização geográfica via mapa interativo.</p>
-                <p class="link">https://lucassiq31.github.io/API_Clima/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>API</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/API_Clima/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/Cubo_Magico/img/logo.png'/>
-                    <h2>Manual Cubo Mágico</h2>
-                </div>
-                <p>Manual web didático para a resolução do Cubo Mágico, estruturado por etapas (camadas) com suporte visual para cada movimento e algoritmo necessário.</p>
-                <p class="link">https://lucassiq31.github.io/Cubo_Magico/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/Cubo_Magico/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/Arcade_Games/imagens/favicon.png'/>
-                    <h2>Arcade Games</h2>
-                </div>
-                <p>Trabalho do curso Técnico de Desenvolvimento de Sistemas do SENAI em fazer Site de Jogos. Tematização inspirada em jogos retro dos anos 80 e 90.</p>
-                <p class="link">https://lucassiq31.github.io/Arcade_Games/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>Node</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/Arcade_Games/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://raw.githubusercontent.com/LucasSiq31/ChatLink/refs/heads/main/public/imagens/favicon.ico'/>
-                    <h2>ChatLink</h2>
-                </div>
-                <p>Aplicação de chat dinâmico focada em conectividade e performance, permitindo a criação de salas ou canais de conversa com atualização instantânea de dados.</p>
-                <p class="link">https://github.com/LucasSiq31/ChatLink</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>Socket.io</p>
-                </div>
-                <button onclick="window.open('https://github.com/LucasSiq31/ChatLink')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/loginGoogle/img/google.png'/>
-                    <h2>Login Goole</h2>
-                </div>
-                <p>Projeto que simula uma página de login do Google desenvolvido a partir da Atividade de Design de Código do curso de Engenharia de Software.</p>
-                <p class="link">https://lucassiq31.github.io/loginGoogle/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/loginGoogle/')">Visitar</button>
-            </div>
-            
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/calculoMedia/icon.png'/>
-                    <h2>Calculo de Média</h2>
-                </div>
-                <p>Projeto que calcula a média de 2 valores desenvolvido a partir da Atividade de Design de Código do curso de Engenharia de Software.</p>
-                <p class="link">https://lucassiq31.github.io/calculoMedia/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/calculoMedia/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://raw.githubusercontent.com/LucasSiq31/jogoAdivinhacao/refs/heads/main/img/Logo.png'/>
-                    <h2>Adivinhe o número</h2>
-                </div>
-                <p>Projeto iniciante de estudo para interfaces gráficas em Python o qual o usuário deve adivinhar um número aleatório sorteado pelo sistema. A cada palpite, o sistema informará se o número correto é maior ou menor que o valor escolhido.</p>
-                <p class="link">https://github.com/LucasSiq31/jogoAdivinhacao</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>Python</p>
-                    <p>Kivy</p>
-                </div>
-                <button onclick="window.open('https://github.com/LucasSiq31/jogoAdivinhacao')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://lucassiq31.github.io/Letro/img/favicon.png'/>
-                    <h2>Letro</h2>
-                </div>
-                <p>O Letro é um jogo de adivinhação de palavras inspirado em sucessos como Wordle e Termo. O desafio consiste em descobrir uma palavra secreta de 5 letras em um número limitado de tentativas, utilizando dicas visuais baseadas no posicionamento de cada caractere.</p>
-                <p class="link">https://lucassiq31.github.io/Letro/</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                </div>
-                <button onclick="window.open('https://lucassiq31.github.io/Letro/')">Visitar</button>
-            </div>
-
-            <div class="card_projeto">
-                <div>
-                    <img src='https://github.com/LucasSiq31/DoceAfeto/blob/main/web/img/logo.png?raw=true'/>
-                    <h2>Doce Afeto</h2>
-                </div>
-                <p>Projeto do 3º Semestre da Graduação de Engenharia de Software na Disciplina de Implementação Orientado a Objeto, Site E-commerce de Doces Artesanais.</p>
-                <p class="link">https://github.com/LucasSiq31/DoceAfeto</p>
-                <div class="tags">
-                    <b>Tags: </b>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>Java</p>
-                    <p>SQL</p>
-                </div>
-                <button onclick="window.open('https://github.com/LucasSiq31/DoceAfeto')">Visitar</button>
-            </div>
-            
+            <section id="projects" class="fade-up fade-up-5"></section>
         </div>
     </main>
 
-    <footer>
-        Desenvolvido por Lucas Siqueira
-    </footer>
+    <script src="projetos.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
