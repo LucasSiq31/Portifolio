@@ -27,7 +27,7 @@ const projetos = [
         cor: "#03b680"
     },
     {
-        id: 2,
+        id: 4,
         nome: "Ghost Blog",
         objetivo: "LocalStorage",
         descricao: "O GhostBlog é uma interface de blog estática e minimalista, projetada para oferecer uma experiência de leitura limpa e sem distrações, com foco total na tipografia e na responsividade.",
@@ -36,7 +36,7 @@ const projetos = [
         cor: "#819bca "
     },
     {
-        id: 2,
+        id: 5,
         nome: "API Clima",
         objetivo: "Consumo de API",
         descricao: "Dashboard de meteorologia desenvolvido com JavaScript, consumindo APIs externas para exibição de dados climáticos precisos e visualização geográfica via mapa interativo.",
@@ -45,7 +45,7 @@ const projetos = [
         cor: "#da6405"
     },
     {
-        id: 2,
+        id: 6,
         nome: "Manual Cubo Mágico",
         objetivo: "Tutorial",
         descricao: "Manual web didático para a resolução do Cubo Mágico, estruturado por etapas (camadas) com suporte visual para cada movimento e algoritmo necessário.",
@@ -54,7 +54,7 @@ const projetos = [
         cor: "#14c504"
     },
     {
-        id: 2,
+        id: 7,
         nome: "Arcade Games",
         objetivo: "Jogos",
         descricao: "Trabalho do curso Técnico de Desenvolvimento de Sistemas do SENAI em fazer Site de Jogos. Tematização inspirada em jogos retro dos anos 80 e 90.",
@@ -63,7 +63,7 @@ const projetos = [
         cor: "#b94141"
     },
     {
-        id: 2,
+        id: 8,
         nome: "ChatLink",
         objetivo: "Conversa em Tempo Real",
         descricao: "Aplicação de chat dinâmico focada em conectividade e performance, permitindo a criação de salas ou canais de conversa com atualização instantânea de dados.",
@@ -72,7 +72,7 @@ const projetos = [
         cor: "#337deb"
     },
     {
-        id: 2,
+        id: 9,
         nome: "Adivinhe o número",
         objetivo: "Interface Gráfica em Python",
         descricao: "Projeto iniciante de estudo para interfaces gráficas em Python o qual o usuário deve adivinhar um número aleatório sorteado pelo sistema. A cada palpite, o sistema informará se o número correto é maior ou menor que o valor escolhido.",
@@ -81,7 +81,7 @@ const projetos = [
         cor: "#f3e520"
     },
     {
-        id: 2,
+        id: 10,
         nome: "Letro",
         objetivo: "Jogo",
         descricao: "O Letro é um jogo de adivinhação de palavras inspirado em sucessos como Wordle e Termo. O desafio consiste em descobrir uma palavra secreta de 5 letras em um número limitado de tentativas, utilizando dicas visuais baseadas no posicionamento de cada caractere.",
@@ -90,12 +90,22 @@ const projetos = [
         cor: "#4ba74b"
     },
     {
-        id: 2,
+        id: 11,
         nome: "Doce Afeto",
         objetivo: "Java e Web",
         descricao: "Projeto do 3º Semestre da Graduação de Engenharia de Software na Disciplina de Implementação Orientado a Objeto, Site E-commerce de Doces Artesanais.",
         link: "https://github.com/LucasSiq31/DoceAfeto",
         tags: ["HTML", "CSS", "JavaScript", "Java", "SQL"],
         cor: "#a74b67"
+    },
+
+    {
+        id: 12,
+        nome: "App Tarefas",
+        objetivo: "Aplicativo",
+        descricao: "Aplicativo desenvolvido em Flutter de checklist de tarefas, itens e outros. Desenvolvido na aula de Desenvolvimento de Aplicações no curso de Engenharia de Software da UMC",
+        link: "https://github.com/LucasSiq31/AppTarefas",
+        tags: ["Dart", "Flutter"],
+        cor: "#009688"
     },
 ]
