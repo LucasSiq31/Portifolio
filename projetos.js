@@ -99,7 +99,7 @@ const projetos = [
         cor: "#a74b67"
     },
 
-    {https://entre-patas-seven.vercel.app/
+    {
         id: 12,
         nome: "App Tarefas",
         objetivo: "Aplicativo",
