@@ -112,7 +112,7 @@ const projetos = [
     {
         id: 13,
         nome: "Entre Patas",
-        objetivo: "Aplicativo / Site",
+        objetivo: "Aplicativo",
         descricao: "O Entre Patas é um projeto acadêmico de aplicativo para adoção de animais, desenvolvido para o 4º semestre da Universidade de Mogi das Cruzes (UMC).",
         link: "https://entre-patas-seven.vercel.app/",
         tags: ["Dart", "Flutter"],
